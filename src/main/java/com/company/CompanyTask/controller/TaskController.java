@@ -36,7 +36,7 @@ import javax.servlet.http.HttpServletRequest;
 @CrossOrigin(origins="*")
 public class TaskController {
 	
-	private static final String filePath = "C:\\Users\\User\\Desktop\\CompanyTask\\CompanyTask\\src\\main\\resources\\store.json";
+	private static final String filePath = "/home/ubuntu/store.json";
 	
 	@PostMapping(value="/posts")
 	public JSONObject createPost(@RequestBody PostAuthorModel postAuthor) {

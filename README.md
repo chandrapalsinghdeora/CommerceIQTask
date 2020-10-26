@@ -4,7 +4,7 @@
 
 # 1. `GET`   /posts
 
-### Example : (GET REQUEST) http://localhost:8080/posts 
+### Example : (GET REQUEST) ec2-54-179-187-232.ap-southeast-1.compute.amazonaws.com:8080/posts 
 ### Response
 ```json
 {
@@ -17,7 +17,7 @@
 
 # 2. `GET`   /posts/0
 
-### Example : (GET REQUEST) http://localhost:8080/posts/0
+### Example : (GET REQUEST) ec2-54-179-187-232.ap-southeast-1.compute.amazonaws.com:8080/posts/0
 ### Response
 ```json
 {
@@ -29,7 +29,7 @@
 
 # 3. `POST` /posts
 
-### Example : (POST REQUEST) http://localhost:8080/posts
+### Example : (POST REQUEST) ec2-54-179-187-232.ap-southeast-1.compute.amazonaws.com:8080/posts
 ### Input Body
 ```json
 {
@@ -52,7 +52,7 @@
 ```
 
 # 4. `PUT` /authors/1
-### Example : (PUT REQUEST) http://localhost:8080/authors/1
+### Example : (PUT REQUEST) ec2-54-179-187-232.ap-southeast-1.compute.amazonaws.com:8080/authors/1
 ### Input Body
 ```json
 {
@@ -71,7 +71,7 @@
 ```
 
 # 5. `PATCH` /posts/1
-### Example : (PATCH REQUEST) http://localhost:8080/posts/0
+### Example : (PATCH REQUEST) ec2-54-179-187-232.ap-southeast-1.compute.amazonaws.com:8080/posts/0
 ### Input Body
 ```json
 {
@@ -89,7 +89,7 @@
 ```
 
 # 6. `DELETE` /posts/1
-### Example : (DELETE REQUEST) http://localhost:8080/posts/6
+### Example : (DELETE REQUEST) ec2-54-179-187-232.ap-southeast-1.compute.amazonaws.com:8080/posts/6
 ### Response
 ```json
 {
@@ -102,12 +102,12 @@
 
 ### Enable filtering at entity level :
 
-# 7. `GET` /posts?title=title1&author=CIQ
+# 7. `GET` ec2-54-179-187-232.ap-southeast-1.compute.amazonaws.com:8080/posts?title=title1&author=CIQ
  
 ### Enable sorting at entity level :
 
-# 8. `GET` /posts?_sort=views&_order=asc
+# 8. `GET` ec2-54-179-187-232.ap-southeast-1.compute.amazonaws.com:8080/posts?_sort=views&_order=asc
 
 ### Enable basic search at entity level:
 
-# 9. `GET` /posts?q=IQ
+# 9. `GET` ec2-54-179-187-232.ap-southeast-1.compute.amazonaws.com:8080/posts?q=IQ
